@@ -1,6 +1,6 @@
 # Maintainer: Petar Margetić
 pkgname=cosmic-transmission
-pkgver=0.1.0
+pkgver=0.2.0
 pkgrel=1
 pkgdesc='COSMIC applet for controlling the Transmission daemon'
 arch=('x86_64')
@@ -17,7 +17,7 @@ makedepends=(
 source=(
     "$pkgname-$pkgver.tar.gz::https://github.com/Mel34/cosmic-transmission/archive/refs/tags/v$pkgver.tar.gz"
 )
-sha256sums=('c319102c19337e04ef6863215c961136a18ae3160cdc5105f6c16e32de4dc2a1')
+sha256sums=('89dbc48135712744c18c98d35d1f4542eb3eb42a12150d7e616383f1b8561ba6')
 
 build() {
     cd "$pkgname-$pkgver"
