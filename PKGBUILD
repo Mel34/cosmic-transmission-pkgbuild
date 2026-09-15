@@ -15,9 +15,9 @@ makedepends=(
     'cargo'
 )
 source=(
-    "$pkgname-$pkgver.tar.gz::https://github.com/Mel34/cosmic-transmission/archive/refs/tags/v$pkgver.tar.gz"
+    "$pkgname-$pkgver.tar.gz::https://github.com/Mel34/cosmic-transmission/archive/refs/tags/$pkgver.tar.gz"
 )
-sha256sums=('44a78d2b8499b585af4fbf89a308f1f8d8220a2de08585604ad69ef8cfeb7179')
+sha256sums=('3bbe4f2b476b7b221ea0360e2cd9efea880c88407fac091880102e50e87cda9d')
 
 build() {
     cd "$pkgname-$pkgver"
