@@ -21,7 +21,7 @@ source=(
     "$pkgname-$pkgver.tar.gz::https://github.com/Mel34/cosmic-transmission/archive/refs/tags/v$pkgver.tar.gz"
 )
 
-sha256sums=('062335d531049a4ce491e1b35500d0d7a5545c7c0a745e7c1d785220d73cab49')
+sha256sums=('496c5fd5cbb47811227822f0e11fdeb1558442b075f990e0381b16947e3b94a5')
 
 build() {
     cd "$srcdir/cosmic-transmission-$pkgver"
